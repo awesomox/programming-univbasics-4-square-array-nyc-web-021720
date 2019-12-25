@@ -1,14 +1,10 @@
 numbers = [1,2,3]
 
 def square_array(array)
-  counter = 0
-  new_array = []
+  counter = 0 
+  results = []
   
-  while counter < array.length
-   squared_element = array[counter] ** 2 
-   new_array.unshift(squared_element)
-   counter ++ 
-   p new_array
+  while counter < array.length()
 end
 
 square_array(numbers)
