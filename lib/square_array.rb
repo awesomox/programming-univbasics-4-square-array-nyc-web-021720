@@ -8,9 +8,7 @@ def square_array(array)
    squared_element = array[counter] ** 2 
    new_array.unshift(squared_element)
    counter ++ 
-  end 
-  
-  p new_array
+   p new_array
 end
 
 square_array(numbers)
