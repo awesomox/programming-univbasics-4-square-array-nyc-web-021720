@@ -5,7 +5,8 @@ def square_array(array)
   results = []
   
   while counter < array.length()
-    results.unshift
+    results.unshift(array[counter] * array[counter])
+    
 end
 
 square_array(numbers)
