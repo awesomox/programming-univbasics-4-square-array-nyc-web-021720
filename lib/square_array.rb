@@ -5,6 +5,7 @@ def square_array(array)
   results = []
   
   while counter < array.length()
+    results
 end
 
 square_array(numbers)
